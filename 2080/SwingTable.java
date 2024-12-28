@@ -14,7 +14,7 @@ public class SwingTable {
              {"3", "Jatra", "Comedy"},
         };
 
-        Jtable table = new Jtable(new DefaultTableModel(data, column));
+        JTable table = new JTable(new DefaultTableModel(data, column));
         JScrollPane scrollPane = new JScrollPane(table);
 
         frame.add(scrollPane);
