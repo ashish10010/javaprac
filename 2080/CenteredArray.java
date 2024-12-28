@@ -1,4 +1,3 @@
-
 public class CenteredArray {
 
     public static int isCentered(int[] arr) 
