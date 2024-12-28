@@ -12,15 +12,7 @@ public class SendEmail {
 
     Properties properties = System.getProperties();
     properties.put(host, "mail.smtp.host");
-    properties.put("587", "mail.smtp.port");
-    properties.put("true", "mail.smtp.auth");
-    properties.put("true", "mail.smtp.starttls.enable");
-
-    Session session = Session.getDefaultInstance(properties, new Authenticator() {
-        protected PasswordAuthentication getpPasswordAuthentication () {
-            return new PasswordAuthentication("xyz@example.com", "password")
-        }
-    });
+    Session session  = Session.getDefaultInstance(properties);
 
     try {
         MimeMessage message = new MimeMessage(session);
