@@ -1,3 +1,4 @@
+package others;
 // A non-empty array A of length n is called on array of all possibilities 
 // if it contains all numbers between 0 and A.length-1 inclusive. 
 // Write a method named isAllPossibilities that accepts an integer array and 

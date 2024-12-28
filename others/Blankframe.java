@@ -1,3 +1,4 @@
+package others;
 import javax.swing.JFrame;
 
 public class Blankframe {
